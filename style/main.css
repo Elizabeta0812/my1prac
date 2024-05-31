@@ -1,0 +1,250 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "Open Sans-1";
+  src: url("../style/fonts/OpenSans_Condensed-Regular.ttf");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Cormorant Italic";
+  src: url("../style/fonts/Cormorant-Italic.woff2");
+}
+@font-face {
+  font-family: "Cormorant";
+  src: url("../style/fonts/Cormorant-Regular.woff2");
+}
+p:hover {
+  color: #BAE249;
+}
+
+img:hover {
+  color: #688B05;
+}
+
+.header {
+  color: #fff;
+  font-family: "Open Sans";
+  font-size: 18px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  flex-direction: row;
+  text-align: center;
+}
+.header img {
+  cursor: pointer;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding-right: 4%;
+  height: fit-content;
+  width: 5%;
+}
+.header p {
+  font-family: "Open Sans-1";
+  cursor: pointer;
+  padding-left: 4%;
+  padding-right: 4%;
+}
+.header .i23 {
+  cursor: pointer;
+  display: flex;
+  margin-right: 0;
+}
+.header .i23 img {
+  margin-top: auto;
+  margin-bottom: auto;
+  height: fit-content;
+  width: 24px;
+}
+.header .i23 img:first-of-type {
+  padding-right: 20%;
+  margin-left: 17vw;
+}
+
+body {
+  background-color: #1D2F30;
+  padding: 0 8% 0 8%;
+}
+
+.p2:hover {
+  color: #91AC46;
+}
+
+.img_hero {
+  background-image: url("../images/1_1 копия.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: cover;
+  height: 550px;
+  margin-left: -10%;
+  margin-right: -10%;
+  margin-top: -10%;
+}
+
+.hero {
+  color: #fff;
+  margin-top: 10%;
+  margin-bottom: auto;
+}
+.hero h1 {
+  font-family: "Cormorant";
+  font-size: 55px;
+  margin-top: -35%;
+  margin-bottom: 0%;
+  display: block;
+  margin-left: 0%;
+  margin-right: 40%;
+}
+.hero .p1 {
+  font-family: "Cormorant";
+  font-size: 20px;
+  margin-top: 1%;
+  display: block;
+  margin-left: 0%;
+  margin-right: 40%;
+}
+.hero .p2 {
+  font-family: "Cormorant";
+  cursor: pointer;
+  font-size: 20px;
+  color: #BAE249;
+  margin-top: 2%;
+  display: flex;
+  margin-left: 0%;
+  margin-right: 40%;
+}
+.hero .p2 img {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 2%;
+  height: fit-content;
+  width: 40px;
+}
+
+.second {
+  margin-top: 20%;
+  display: flex;
+  justify-content: center;
+}
+.second img {
+  width: 290px;
+}
+.second table {
+  border-spacing: 20px;
+}
+
+.img2 img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1%;
+  width: 161px;
+}
+
+.third {
+  color: #fff;
+  margin-top: 1%;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+.third img {
+  display: flex;
+  height: 532px;
+}
+.third table {
+  border-spacing: 40px;
+  margin-left: -3.5%;
+  margin-right: -5%;
+  margin-top: -4%;
+}
+
+.h1 {
+  font-family: "Cormorant Italic";
+  font-size: 24px;
+  display: block;
+  color: #fff;
+}
+
+.img_fourth {
+  background-image: url("../images/11.1.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: cover;
+  height: 400px;
+  margin-left: -10%;
+  margin-right: -10%;
+  margin-top: -10%;
+}
+
+.fourth {
+  margin-top: 10%;
+  margin-bottom: auto;
+}
+.fourth h1 {
+  font-family: "Cormorant Italic";
+  color: #fff;
+  font-size: 48px;
+  margin-top: -30%;
+  margin-bottom: 0%;
+  display: block;
+  margin-left: 0%;
+  margin-right: 40%;
+}
+.fourth .p1 {
+  font-family: "Open Sans-1";
+  color: #fff;
+  font-size: 16px;
+  margin-top: 1%;
+  display: block;
+  margin-left: 0%;
+  margin-right: 40%;
+}
+.fourth form {
+  font-family: "Open Sans-1";
+  position: absolute;
+}
+.fourth .form_input {
+  margin: 15px 0px;
+}
+.fourth .form_input input {
+  padding: 10px;
+  width: 150%;
+  color: #000;
+  font-size: 18px;
+  outline: none;
+  border: 1px solid #fff;
+  box-sizing: border-box;
+}
+.fourth .form_input input:hover {
+  color: #fff;
+  background: #899D9D;
+}
+.fourth .submit button {
+  cursor: pointer;
+  padding: 10px;
+  width: 70%;
+  color: #000;
+  font-size: 18px;
+  outline: none;
+  background: #BAE249;
+  box-sizing: border-box;
+  border: 0px;
+}
+.fourth .submit button:hover {
+  color: #000;
+  background: #91AC46;
+}
+
+.footer {
+  margin-top: 18%;
+  background: #0B1919;
+  display: flex;
+  justify-content: center;
+  margin-left: -18%;
+  margin-right: -10%;
+}
+.footer img {
+  padding: 2%;
+}/*# sourceMappingURL=main.css.map */

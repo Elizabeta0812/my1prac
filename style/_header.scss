@@ -1,0 +1,52 @@
+
+p:hover{
+    color: #BAE249;
+}
+img:hover {
+    color: #688B05;
+}
+
+
+.header{
+    
+    color: #fff;
+    font-family:'Open Sans';
+    font-size: 18px;
+    display: flex;
+    @extend %auto-margine;
+    flex-direction: row;
+    text-align: center;
+    
+    img{
+        cursor: pointer;
+        margin-top: auto;
+        margin-bottom: auto;
+        padding-right: 4%;
+        height: fit-content;
+        width: 5%;}
+
+    
+    p{  
+        font-family: 'Open Sans-1';
+        cursor: pointer;
+        padding-left: 4%;
+        padding-right: 4%;
+    }
+    .i23{cursor: pointer;
+        display: flex;
+        margin-right: 0;
+        // margin-left: auto;
+        img{
+        margin-top: auto;
+        margin-bottom: auto;
+        height: fit-content;
+        width: 24px;
+        }
+        img:first-of-type{
+            padding-right: 20%;
+            margin-left: 17vw;
+        }
+
+    }
+
+}
